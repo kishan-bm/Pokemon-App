@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(70, 125, 177);
+    color: azure;
+    font-family: "Share Tech Mono";
+  }
+  #search-form {
+    padding-bottom: 20px; /* Add more space below the search input/button */
+  }
+  
+  #pokemon-name {
+    color:red
+  }
+  
+  #display-card {
+    height: 700px;
+    width: 416px;
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px;
+    border-width: 1px;
+    border-radius: 16px;
+    box-shadow: 12px 8px rgb(183, 189, 177);
+  }
+  #display-pokemon {
+   display: none;
+  }
+  h1 {
+    text-align: center;
+  }
+  #second-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #description {
+    padding-right: 10px;
+  }
+  .search-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #search-form {
+    padding-bottom: 10px;
+    
+  }
+  #search-input {
+    padding-top: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top:20px;
+  }
+  #search-input:focus {
+    background-color:rgb(197, 196, 194);
+  }
+  #search-button {
+    cursor: pointer;
+    margin-left: 10px;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: black;
+    background-color: rgb(245, 245, 9);
+    border-color: rgb(236, 190, 190);
+  }
+  #search-button:hover {
+    background-color: #e67e2a;
+    color: white;
+  }
+  
+  #display-pokemon {
+    padding-left: 15px;
+  }
+  
+  #pokemon-name {
+    font-size: 20px;
+  }
+  
+  #pokemon-physical-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  #types {
+    padding-top: 8px;
+  }
+  #pokemon-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  img {
+    height: 100px;
+    width: 120px;
+  }
+  .types {
+    background-color: rgb(123, 255, 0);
+    padding: 12px;
+    border-radius: 4px;
+  }
+   .types:nth-child(2), .types:nth-child(3), .types:nth-child(4) {
+    margin-left: 5px;
+   }
+  #table-stats {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+    font-size: 20px;
+  }
+  
+  tr,
+  td,
+  th {
+    background-color: rgb(123, 255, 0);
+    color: black;
+    border: solid 1px;
+    text-align: center;
+    padding: 8px;
+    width: 100%;
+  }
+  
+  
+  
+  
+  
+  #pokemon-name-container{
+    margin-top:20px;
+  }
+  .types{
+    background-color:orange;
+  }
+  
